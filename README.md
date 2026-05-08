@@ -8,6 +8,50 @@ Supports DirectX 11 & DirectX 12.
 
 ---
 
+## Features
+
+- **Player**
+  - God Mode
+  - Infinite Stamina
+  - No Cooldown
+  - Fly Hack
+  - Player Speedhack (adjustable multiplier)
+
+- **Combat**
+  - Kill Aura (unstable, adjustable range)
+  - Mob Vacuum (adjustable range)
+  - Dumb Enemies
+
+- **World**
+  - Global Speedhack (adjustable multiplier)
+
+- **Visual**
+  - No Camera Fade
+
+- **ESP**
+  - Monster ESP
+  - Oracle Stone ESP
+  - Photo View ESP
+  - Treasure Box ESP
+  - Draw Box
+  - ESP Range adjustment
+
+- **Teleport**
+  - Save current location
+  - Teleport to saved waypoints
+  - Delete saved waypoints
+
+- **Vehicle**
+  - Vehicle Fly Mode (unstable)
+  - Summon vehicles from built-in vehicle list
+
+- **Misc**
+  - Save Config
+  - Toggle overlay watermark
+  - Uncheck All Cheats
+
+---
+
 ## Screenshot
 
 ![LUNATIC Banner](screenshot.png)
