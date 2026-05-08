@@ -88,6 +88,18 @@ Supports DirectX 11 & DirectX 12.
 5. **In-Game**:
    - Press **`ALT + 1`** to toggle the menu.
 
+## Troubleshooting
+
+### OpenProcess failed (Windows)
+
+If the loader shows `OpenProcess failed` after you click **Launch** or when starting the game:
+
+1. Close both the Game Launcher and `lunatic_loader.exe`.
+2. Right-click `lunatic_loader.exe` and choose **Run as administrator**.
+3. Start again from the loader, then launch the game from `NTEGlobalLauncher.exe`.
+
+This usually happens because of a privilege mismatch (the loader needs enough permission to open the target process).
+
 ---
 
 ## Community
