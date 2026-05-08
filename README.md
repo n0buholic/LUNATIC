@@ -4,6 +4,8 @@
 
 Internal Cheat for Neverness To Everness (NTE).
 
+Supports DirectX 11 & DirectX 12.
+
 ---
 
 ## Screenshot
