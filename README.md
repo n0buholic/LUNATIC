@@ -16,25 +16,37 @@ Supports DirectX 11 & DirectX 12.
   - No Cooldown
   - Fly Hack
   - Player Speedhack (adjustable multiplier)
+  - Multi Hit (adjustable multiplier)
+  - Outfit Changer (previous / next outfit)
 
 - **Combat**
   - Kill Aura (unstable, adjustable range)
   - Mob Vacuum (adjustable range)
   - Dumb Enemies
 
-- **World**
+- **World / Story**
   - Global Speedhack (adjustable multiplier)
+  - Auto Skip Video Cutscene (unstable)
+  - Auto Skip Dialogue (unstable)
 
 - **Visual**
   - No Camera Fade
+  - FPS Unlocker
+  - FPS preset selector
+  - FPS smoothing fix option
 
 - **ESP**
   - Monster ESP
   - Oracle Stone ESP
   - Photo View ESP
   - Treasure Box ESP
+  - Spacetime Projector ESP
   - Draw Box
   - ESP Range adjustment
+
+- **Profile**
+  - Nickname changer
+  - UID changer
 
 - **Teleport**
   - Save current location
@@ -48,7 +60,8 @@ Supports DirectX 11 & DirectX 12.
 - **Misc**
   - Save Config
   - Toggle overlay watermark
-  - Uncheck All Cheats
+
+> Some features are still unstable, especially Kill Aura, Vehicle Fly Mode, and story skip automation.
 
 ---
 
@@ -68,7 +81,7 @@ Supports DirectX 11 & DirectX 12.
 4. **Launch**: Click the **Launch** button. This will open the game launcher (if not detected, you will be prompted to select `NTEGlobalLauncher.exe`).
 5. **Play**: Start the game from its official launcher and wait for the loader to automatically inject the cheat.
 6. **In-Game**: 
-   - Press **`ALT + 1`** to toggle the menu.
+   - Press **`INSERT`** to toggle the menu.
 
 ### Linux (Lutris)
 
@@ -77,7 +90,7 @@ Supports DirectX 11 & DirectX 12.
 3. **Run EXE inside prefix**: Configure Lutris to run `lunatic_loader.exe` with the same Wine prefix as NTE.
 4. **Launch game from loader**: Use the loader's **Launch** button so injection can happen in the correct process.
 5. **In-Game**:
-   - Press **`ALT + 1`** to toggle the menu.
+   - Press **`INSERT`** to toggle the menu.
 
 ### Linux (Steam / Proton)
 
@@ -86,7 +99,7 @@ Supports DirectX 11 & DirectX 12.
 3. **Add loader to Steam**: Add `lunatic_loader.exe` as a non-Steam game (or run it via your Proton launch method).
 4. **Run loader first**: Start `lunatic_loader.exe`, then click **Launch** in the loader.
 5. **In-Game**:
-   - Press **`ALT + 1`** to toggle the menu.
+   - Press **`INSERT`** to toggle the menu.
 
 ## Troubleshooting
 
