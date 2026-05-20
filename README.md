@@ -1,10 +1,10 @@
-# LUNATIC - Neverness To Everness Internal Cheat
+# LUNATIC - Neverness To Everness Internal
 
 ![LUNATIC Banner](logo.png)
 
-Internal Cheat for Neverness To Everness (NTE).
+Internal tool for Neverness To Everness (NTE).
 
-Supports DirectX 11 & DirectX 12.
+Supports DirectX 11 and DirectX 12.
 
 ---
 
@@ -15,59 +15,65 @@ Supports DirectX 11 & DirectX 12.
   - Infinite Stamina
   - No Cooldown
   - Fly Hack
-  - Player Speedhack (adjustable multiplier)
-  - Multi Hit (adjustable multiplier)
-  - Outfit Changer (previous / next outfit)
+  - Multi Hit with adjustable multiplier
+  - Player Speedhack with adjustable multiplier
+  - Outfit switcher
+
+- **Profile**
+  - Nickname changer
+  - UID changer
+  - Restore original profile
 
 - **Combat**
-  - Kill Aura (unstable, adjustable range)
-  - Mob Vacuum (adjustable range)
+  - Kill Aura with adjustable range
+  - Mob Vacuum with adjustable range
   - Dumb Enemies
 
-- **World / Story**
-  - Global Speedhack (adjustable multiplier)
-  - Auto Skip Video Cutscene (unstable)
-  - Auto Skip Dialogue (unstable)
+- **World**
+  - Auto Skip Video Cutscene
+  - Auto Skip Dialogue
+  - Global Speedhack with adjustable multiplier
 
 - **Visual**
   - No Camera Fade
   - FPS Unlocker
   - FPS preset selector
-  - FPS smoothing fix option
+  - Smoothing Fix
 
 - **ESP**
+  - Master ESP toggle
   - Monster ESP
+  - Draw Box
   - Oracle Stone ESP
   - Photo View ESP
   - Treasure Box ESP
   - Spacetime Projector ESP
-  - Draw Box
-  - ESP Range adjustment
-
-- **Profile**
-  - Nickname changer
-  - UID changer
+  - ESP range adjustment
 
 - **Teleport**
-  - Save current location
-  - Teleport to saved waypoints
-  - Delete saved waypoints
+  - Show current coordinates
+  - Save named locations
+  - Teleport to saved locations
+  - Delete saved locations
 
 - **Vehicle**
-  - Vehicle Fly Mode (unstable)
-  - Summon vehicles from built-in vehicle list
+  - Vehicle God Mode
+  - Vehicle Fly Mode
+  - Vehicle Speed Hack with adjustable multiplier
+  - N2O / Boost with **CTRL + W**
 
 - **Misc**
   - Save Config
-  - Toggle overlay watermark
+  - Show or hide overlay watermark
+  - Per-feature hotkeys from the menu
 
-> Some features are still unstable, especially Kill Aura, Vehicle Fly Mode, and story skip automation.
+Some features are unstable, especially Kill Aura, story skip automation, and Vehicle Fly Mode.
 
 ---
 
 ## Screenshot
 
-![LUNATIC Banner](screenshot.png)
+![LUNATIC Screenshot](screenshot.png)
 
 ---
 
@@ -75,45 +81,65 @@ Supports DirectX 11 & DirectX 12.
 
 ### Windows
 
-1. **Download**: Grab the latest `.zip` release from the [Releases](https://github.com/n0buholic/LUNATIC/releases) page.
-2. **Extract**: Extract all files into a folder. Ensure `lunatic_loader.exe` and `internal.dll` are in the same directory.
-3. **Open**: Launch `lunatic_loader.exe`.
-4. **Launch**: Click the **Launch** button. This will open the game launcher (if not detected, you will be prompted to select `NTEGlobalLauncher.exe`).
-5. **Play**: Start the game from its official launcher and wait for the loader to automatically inject the cheat.
-6. **In-Game**: 
-   - Press **`INSERT`** to toggle the menu.
+1. Download `LUNATIC.exe` from the [Releases](https://github.com/n0buholic/LUNATIC/releases) page.
+2. Run `LUNATIC.exe` as administrator.
+3. Select DirectX 11 or DirectX 12 in the loader.
+4. Click **LAUNCH GAME**.
+5. Wait until the loader finishes. It will start the game and inject automatically.
+6. In game, press **INSERT** to open or close the LUNATIC menu.
 
-### Linux (Lutris)
+### Linux (Lutris / Wine)
 
-1. **Prepare files**: Download and extract the latest release. Keep `lunatic_loader.exe` and `internal.dll` in the same folder.
-2. **Open Lutris**: Select your NTE game entry.
-3. **Run EXE inside prefix**: Configure Lutris to run `lunatic_loader.exe` with the same Wine prefix as NTE.
-4. **Launch game from loader**: Use the loader's **Launch** button so injection can happen in the correct process.
-5. **In-Game**:
-   - Press **`INSERT`** to toggle the menu.
+1. Download `LUNATIC.exe` from the latest release.
+2. Run `LUNATIC.exe` inside the same Wine prefix used by NTE.
+3. Select DirectX 11 or DirectX 12.
+4. Click **LAUNCH GAME** and wait for automatic injection.
+5. In game, press **INSERT** to open or close the menu.
 
 ### Linux (Steam / Proton)
 
-1. **Prepare files**: Download and extract the latest release. Keep `lunatic_loader.exe` and `internal.dll` in the same folder.
-2. **Use same Proton prefix**: Make sure the loader is started with the same Proton/Wine prefix as your NTE install.
-3. **Add loader to Steam**: Add `lunatic_loader.exe` as a non-Steam game (or run it via your Proton launch method).
-4. **Run loader first**: Start `lunatic_loader.exe`, then click **Launch** in the loader.
-5. **In-Game**:
-   - Press **`INSERT`** to toggle the menu.
+1. Download `LUNATIC.exe` from the latest release.
+2. Add `LUNATIC.exe` as a non-Steam game, or run it with the same Proton prefix used by NTE.
+3. Select DirectX 11 or DirectX 12.
+4. Click **LAUNCH GAME** and wait for automatic injection.
+5. In game, press **INSERT** to open or close the menu.
+
+---
+
+## Loader Notes
+
+- The loader detects the NTE install folder automatically when possible.
+- If detection fails, select the folder that contains `NTEGlobalLauncher.exe`.
+- The loader starts `NTEGlobalGame.exe`, installs the launcher agent, waits for `HTGame.exe`, and injects automatically.
+- The loader may retry the bootstrap if the game exits during injection.
+- The official launcher window is hidden during the release flow.
+
+---
 
 ## Troubleshooting
 
-### OpenProcess failed (Windows)
+### OpenProcess failed
 
-If the loader shows `OpenProcess failed` after you click **Launch** or when starting the game:
+Run `LUNATIC.exe` as administrator. This is usually caused by a privilege mismatch between the loader and the target process.
 
-1. Close both the Game Launcher and `lunatic_loader.exe`.
-2. Right-click `lunatic_loader.exe` and choose **Run as administrator**.
-3. Start again from the loader, then launch the game from `NTEGlobalLauncher.exe`.
+### Game folder not found
 
-This usually happens because of a privilege mismatch (the loader needs enough permission to open the target process).
+Select the NTE install folder manually. The correct folder contains `NTEGlobalLauncher.exe`.
+
+### Injection timeout or retry limit reached
+
+Close NTE and the loader. Open Task Manager and end any remaining NTE-related processes, especially:
+
+- `HTGame.exe`
+- `NTEGlobalGame.exe`
+- `NTEGlobalBrowser.exe`
+- `NTEGlobalWebBooster.exe`
+- `NTEGlobalUpdate.exe`
+
+Then run `LUNATIC.exe` again as administrator.
 
 ---
 
 ## Community
+
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/9YxVw9ZA5c)
