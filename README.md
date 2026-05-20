@@ -112,7 +112,6 @@ Some features are unstable, especially Kill Aura, story skip automation, and Veh
 - If detection fails, select the folder that contains `NTEGlobalLauncher.exe`.
 - The loader starts `NTEGlobalGame.exe`, installs the launcher agent, waits for `HTGame.exe`, and injects automatically.
 - The loader may retry the bootstrap if the game exits during injection.
-- The official launcher window is hidden during the release flow.
 
 ---
 
