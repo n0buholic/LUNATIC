@@ -1,73 +1,86 @@
+<div align="center">
+
 # LUNATIC - Neverness To Everness Internal
 
 ![LUNATIC Banner](logo.png)
 
-Internal tool for Neverness To Everness (NTE).
+**Internal cheat for Neverness To Everness (NTE).**
 
 Supports DirectX 11 and DirectX 12.
+
+</div>
 
 ---
 
 ## Features
 
-- **Player**
-  - God Mode
-  - Infinite Stamina
-  - No Cooldown
-  - Fly Hack
-  - Multi Hit with adjustable multiplier
-  - Player Speedhack with adjustable multiplier
-  - Outfit switcher
+### Player
 
-- **Profile**
-  - Nickname changer
-  - UID changer
-  - Restore original profile
+- God Mode
+- Infinite Stamina
+- No Cooldown
+- Fly Hack
+- Multi Hit with adjustable multiplier
+- Player Speedhack with adjustable multiplier
+- Outfit switcher
 
-- **Combat**
-  - Kill Aura with adjustable range
-  - Mob Vacuum with adjustable range
-  - Dumb Enemies
+### Profile
 
-- **World**
-  - Auto Skip Video Cutscene
-  - Auto Skip Dialogue
-  - Global Speedhack with adjustable multiplier
+- Nickname changer
+- UID changer
+- Restore original profile
 
-- **Visual**
-  - No Camera Fade
-  - FPS Unlocker
-  - FPS preset selector
-  - Smoothing Fix
+### Combat
 
-- **ESP**
-  - Master ESP toggle
-  - Monster ESP
-  - Draw Box
-  - Oracle Stone ESP
-  - Photo View ESP
-  - Treasure Box ESP
-  - Spacetime Projector ESP
-  - ESP range adjustment
+- Kill Aura with adjustable range
+- Mob Vacuum with adjustable range
+- Dumb Enemies
 
-- **Teleport**
-  - Show current coordinates
-  - Save named locations
-  - Teleport to saved locations
-  - Delete saved locations
+### World
 
-- **Vehicle**
-  - Vehicle God Mode
-  - Vehicle Fly Mode
-  - Vehicle Speed Hack with adjustable multiplier
-  - N2O / Boost with **CTRL + W**
+- Auto Skip Video Cutscene
+- Auto Skip Dialogue
+- Global Speedhack with adjustable multiplier
 
-- **Misc**
-  - Save Config
-  - Show or hide overlay watermark
-  - Per-feature hotkeys from the menu
+### Visual
 
-Some features are unstable, especially Kill Aura, story skip automation, and Vehicle Fly Mode.
+- No Camera Fade
+- FPS Unlocker
+- FPS preset selector
+- Smoothing Fix
+
+### ESP
+
+- Master ESP toggle
+- Monster ESP
+- Draw Box
+- Oracle Stone ESP
+- Photo View ESP
+- Treasure Box ESP
+- Spacetime Projector ESP
+- ESP range adjustment
+
+### Teleport
+
+- Show current coordinates
+- Save named locations
+- Teleport to saved locations
+- Delete saved locations
+
+### Vehicle
+
+- Vehicle God Mode
+- Vehicle Fly Mode
+- Vehicle Speed Hack with adjustable multiplier
+- N2O / Boost with **CTRL + W**
+
+### Misc
+
+- Save Config
+- Show or hide overlay watermark
+- Per-feature hotkeys from the menu
+
+> Some features are unstable, especially Kill Aura, story skip automation, and Vehicle Fly Mode.
 
 ---
 
@@ -84,9 +97,8 @@ Some features are unstable, especially Kill Aura, story skip automation, and Veh
 1. Download `LUNATIC.exe` from the [Releases](https://github.com/n0buholic/LUNATIC/releases) page.
 2. Run `LUNATIC.exe` as administrator.
 3. Select DirectX 11 or DirectX 12 in the loader.
-4. Click **LAUNCH GAME**.
-5. Wait until the loader finishes. It will start the game and inject automatically.
-6. In game, press **INSERT** to open or close the LUNATIC menu.
+4. Click **LAUNCH GAME** and wait for automatic injection.
+5. In game, press **INSERT** to open or close the menu.
 
 ### Linux (Lutris / Wine)
 
@@ -141,4 +153,8 @@ Then run `LUNATIC.exe` again as administrator.
 
 ## Community
 
+<div align="center">
+
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/9YxVw9ZA5c)
+
+</div>
